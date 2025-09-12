@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="GENERAL_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/10_heap_and_priority_queue" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11_graph" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/12_1d_dp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/13_intervals" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/14_greedy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/15_adv_graphs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/16_2d_dp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17_bit_manupulation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/18_math_and_geometry" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1_arrays_and_hashing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2_two_pointers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3_stack" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4_binary_search" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/5_sliding_window" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/6_linked_list" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/7_trees" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/8_tries" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/9_backtracking" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
