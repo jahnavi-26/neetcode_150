@@ -12,7 +12,7 @@ Sliding window is often used to optimize problems involving **subarrays or subst
 | 1 | Best Time to Buy and Sell Stock | ✅ | Easy | 12-09-25 |
 | 2 | Longest Substring Without Repeating Characters | ✅ | Medium | 13-09-25 |
 | 3 | Longest Repeating Character Replacement | ✅ | Medium | 13-09-25 |
-| 4 | Minimum Window Substring | ❌ Not Attempted | Hard | Date     |
+| 4 | Minimum Window Substring | ✅ | Hard | 13-09-25 |
 | 5 | Sliding Window Maximum | ❌ Not Attempted | Hard | Date     |
 | 6 | Permutation in String | ✅ | Medium | 13-09-25 |
 
