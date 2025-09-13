@@ -10,7 +10,7 @@ Sliding window is often used to optimize problems involving **subarrays or subst
 | # | Problem | Status | Difficulty | Date     |
 |---|---------|--------|------------|----------|
 | 1 | Best Time to Buy and Sell Stock | ✅ | Easy | 12-09-25 |
-| 2 | Longest Substring Without Repeating Characters | ❌ Not Attempted | Medium | Date     |
+| 2 | Longest Substring Without Repeating Characters | ✅ | Medium | 13-09-25 |
 | 3 | Longest Repeating Character Replacement | ❌ Not Attempted | Medium | Date     |
 | 4 | Minimum Window Substring | ❌ Not Attempted | Hard | Date     |
 | 5 | Sliding Window Maximum | ❌ Not Attempted | Hard | Date     |
