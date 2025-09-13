@@ -1,4 +1,4 @@
-# Problem: Two Sum II, Input array is sorted
+# Problem: [Problem Name]
 
 ## 📄 Problem Statement
 Write the exact statement in your own words.  
