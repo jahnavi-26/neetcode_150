@@ -14,7 +14,7 @@ Sliding window is often used to optimize problems involving **subarrays or subst
 | 3 | Longest Repeating Character Replacement | ✅ | Medium | 13-09-25 |
 | 4 | Minimum Window Substring | ❌ Not Attempted | Hard | Date     |
 | 5 | Sliding Window Maximum | ❌ Not Attempted | Hard | Date     |
-| 6 | Permutation in String | ❌ Not Attempted | Medium | Date     |
+| 6 | Permutation in String | ✅ | Medium | 13-09-25 |
 
 ---
 
