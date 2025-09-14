@@ -10,7 +10,7 @@ Linked lists are useful for dynamic data structures, pointer manipulation, and c
 | # | Problem | Status | Difficulty | Date     |
 |---|---------|--------|------------|----------|
 | 1 | Reverse Linked List | ✅ | Easy | 14-09-25 |
-| 2 | Merge Two Sorted Lists | ❌ Not Attempted | Easy | Date     |
+| 2 | Merge Two Sorted Lists | ✅ | Easy | 14-09-25     |
 | 3 | Reorder List | ❌ Not Attempted | Medium | Date     |
 | 4 | Remove Nth Node From End of List | ❌ Not Attempted | Medium | Date     |
 | 5 | Copy List with Random Pointer | ❌ Not Attempted | Medium | Date     |
