@@ -83,6 +83,6 @@ public ListNode reverse(ListNode head) {
 
 ### Complexity
 - **Time:** O(n)
-- **Space:** O(n) // recursive stack space
+- **Space:** O(1) & in recursion - O(n) // recursive stack space
 
 ---
