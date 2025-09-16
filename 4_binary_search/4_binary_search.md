@@ -14,7 +14,7 @@ Binary search is commonly used on **sorted arrays** or for **search space optimi
 | 3 | Koko Eating Bananas | ✅ | Medium | 11-09-25 |
 | 4 | Find Minimum in Rotated Sorted Array | ✅ | Medium | 11-09-25 |
 | 5 | Search in Rotated Sorted Array | 🔄 | Medium | 11-09-25 |
-| 6 | Time Based Key-Value Store | ❌ Not Attempted | Medium | Date     |
+| 6 | Time Based Key-Value Store | 🔄 | Medium | 16-09-25 |
 | 7 | Median of Two Sorted Arrays | 🔄 | Hard | 16-09-25 |
 
 ---
