@@ -46,7 +46,7 @@ public ListNode reverseList(ListNode head) {
 ## 🧪 Optimal Approach
 ### Idea
 - keep the data of linked list intact
-- need to make the mext point in backward direction (opposite)
+- need to make the next point in backward direction (opposite)
 
 ### Code
 ```java
