@@ -14,7 +14,7 @@ Linked lists are useful for dynamic data structures, pointer manipulation, and c
 | 3 | Reorder List | ✅ | Medium | 14-09-25 |
 | 4 | Remove Nth Node From End of List | ✅ | Medium | 16-09-25 |
 | 5 | Copy List with Random Pointer | ❌ Not Attempted | Medium | Date     |
-| 6 | Add Two Numbers | ❌ Not Attempted | Medium | Date     |
+| 6 | Add Two Numbers | ✅ | Medium | 16-09-25     |
 | 7 | Linked List Cycle | ❌ Not Attempted | Easy | Date     |
 | 8 | Find the Duplicate Number | ❌ Not Attempted | Medium | Date     |
 | 9 | LRU Cache | ❌ Not Attempted | Medium | Date     |
