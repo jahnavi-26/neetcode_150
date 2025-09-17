@@ -1,47 +1,55 @@
-# Problem: [Problem Name]
+# Problem: Min Stack
 
 ## 📄 Problem Statement
-Write the exact statement in your own words.  
-(Add constraints if any, e.g., "1 <= nums.length <= 10^4")
-
+Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+["MinStack","push","push","push","getMin","pop","top","getMin"]
+[[],[-2],[0],[-3],[],[],[],[]]
+Output
+[null,null,null,null,-3,null,0,-2]
 ---
 
 ## 🧠 Brute Force Approach
 ### Idea
-- Explain your naive approach in 2–3 lines.
+- if we integrate through the stack to find the min, it will take O(n)
+- store in stack as a pair<val, min till now>
 
 ### Code
 ```java
 // Brute force solution
-public int[] solve(...) {
-    // code here
+class MinStack {
+    private Stack<int[]> st;
+
+    public MinStack() {
+        st = new Stack<>();
+    }
+
+    public void push(int val) {
+        if (st.isEmpty())
+            st.push(new int[] { val, val });
+        else {
+            int currMin = st.peek()[1];
+            st.push(new int[] { val, Math.min(val, currMin) });
+        }
+    }
+
+    public void pop() {
+        if (!st.isEmpty()) {
+            st.pop();
+        }
+    }
+
+    public int top() {
+        return st.peek()[0];
+    }
+
+    public int getMin() {
+        return st.peek()[1];
+    }
 }
 ```
 
 ### Complexity
-- **Time:** O(n)
-- **Space:** O(n)
+- **Time:** O(1)
+- **Space:** O(2n) - array
 
 ---
-
-## 🧪 Optimal Approach
-### Idea
-- Explain your optimal approach in 2–3 lines.
-
-### Code
-```java
-// optimal force solution
-public int[] solve(...) {
-    // code here
-}
-```
-
-### Complexity
-- **Time:** O(n)
-- **Space:** O(n)
-
----
-
-## ✅ Key Takeaways
-- HashSet is the go-to for duplicate checks.
-- Reduces O(n²) → O(n).

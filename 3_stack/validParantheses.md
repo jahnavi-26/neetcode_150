@@ -11,13 +11,24 @@ Output: false
 
 ## 🧠 Brute Force Approach
 ### Idea
-- Explain your naive approach in 2–3 lines.
+- Need to check the last opening bracket
 
 ### Code
 ```java
 // Brute force solution
-public int[] solve(...) {
-    // code here
+public boolean isValid(String s) {
+    Stack<Character> stack = new Stack<>();
+    for (char ch : s.toCharArray()) {
+        if (ch == '(' || ch == '[' || ch == '{') stack.push(ch);
+        else {
+            if (stack.isEmpty()) return false;
+            char top = stack.pop();
+            if (ch == ')' && top != '(') return false;
+            if (ch == ']' && top != '[') return false;
+            if (ch == '}' && top != '{') return false;
+        }
+    }
+    return stack.isEmpty();
 }
 ```
 
@@ -26,25 +37,3 @@ public int[] solve(...) {
 - **Space:** O(n)
 
 ---
-
-## 🧪 Optimal Approach
-### Idea
-- Explain your optimal approach in 2–3 lines.
-
-### Code
-```java
-// optimal force solution
-public int[] solve(...) {
-    // code here
-}
-```
-
-### Complexity
-- **Time:** O(n)
-- **Space:** O(n)
-
----
-
-## ✅ Key Takeaways
-- HashSet is the go-to for duplicate checks.
-- Reduces O(n²) → O(n).
